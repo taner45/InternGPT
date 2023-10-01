@@ -1,5 +1,5 @@
 torch==1.13.0
-opencv-python==4.5.5.64
+opencv-python==4.8.1.78.64
 Pillow==9.5.0
 openai-whisper==20230314
 gradio==3.28.1
@@ -34,3 +34,4 @@ ftfy
 regex
 einops
 imageio-ffmpeg
+opencv-python-headless>=4.8.1.78 # not directly required, pinned by Snyk to avoid a vulnerability
