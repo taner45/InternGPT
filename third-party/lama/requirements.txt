@@ -18,3 +18,4 @@ webdataset
 packaging
 scikit-learn==0.24.2
 wldhx.yadisk-direct
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
