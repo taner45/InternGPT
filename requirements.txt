@@ -2,8 +2,8 @@ torch==1.13.0
 opencv-python==4.5.5.64
 Pillow==9.5.0
 openai-whisper==20230314
-gradio==3.28.1
-transformers==4.28.0
+gradio==4.19.2
+transformers==4.38.0
 diffusers==0.15.1
 controlnet_aux
 langchain==0.0.101
@@ -34,3 +34,4 @@ ftfy
 regex
 einops
 imageio-ffmpeg
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
