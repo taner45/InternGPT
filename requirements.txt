@@ -1,4 +1,4 @@
-torch==1.13.0
+torch==2.2.0
 opencv-python==4.5.5.64
 Pillow==9.5.0
 openai-whisper==20230314
@@ -34,3 +34,4 @@ ftfy
 regex
 einops
 imageio-ffmpeg
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
