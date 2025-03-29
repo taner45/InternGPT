@@ -3,7 +3,7 @@ opencv-python==4.5.5.64
 Pillow==9.5.0
 openai-whisper==20230314
 gradio==3.28.1
-transformers==4.28.0
+transformers==4.48.0
 diffusers==0.15.1
 controlnet_aux
 langchain==0.0.101
@@ -16,7 +16,7 @@ suno-bark
 easyocr==1.6.2
 easydict==1.9
 scikit-learn==0.24.2
-pytorch-lightning==1.5.10
+pytorch-lightning==2.4.0
 albumentations==0.5.2
 webdataset==0.2.48
 kornia==0.5.0
