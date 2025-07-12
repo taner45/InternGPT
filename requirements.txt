@@ -2,8 +2,8 @@ torch==1.13.0
 opencv-python==4.5.5.64
 Pillow==9.5.0
 openai-whisper==20230314
-gradio==3.28.1
-transformers==4.28.0
+gradio==5.35.0
+transformers==4.52.0
 diffusers==0.15.1
 controlnet_aux
 langchain==0.0.101
@@ -25,7 +25,7 @@ accelerate==0.18.0
 timm==0.6.13
 git+https://github.com/facebookresearch/segment-anything.git
 wget
-protobuf==3.20
+protobuf==4.25.8
 pytorchvideo==0.1.5
 soundfile
 fvcore
@@ -34,3 +34,4 @@ ftfy
 regex
 einops
 imageio-ffmpeg
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
