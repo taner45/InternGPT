@@ -1,4 +1,4 @@
-torch==1.13.0
+torch==2.10.0
 opencv-python==4.5.5.64
 Pillow==9.5.0
 openai-whisper==20230314
@@ -34,3 +34,5 @@ ftfy
 regex
 einops
 imageio-ffmpeg
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
