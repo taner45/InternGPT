@@ -1,4 +1,4 @@
-torch==1.13.0
+torch==2.10.0
 opencv-python==4.5.5.64
 Pillow==9.5.0
 openai-whisper==20230314
@@ -20,12 +20,12 @@ pytorch-lightning==1.5.10
 albumentations==0.5.2
 webdataset==0.2.48
 kornia==0.5.0
-sentencepiece==0.1.98
+sentencepiece==0.2.1
 accelerate==0.18.0
 timm==0.6.13
 git+https://github.com/facebookresearch/segment-anything.git
 wget
-protobuf==3.20
+protobuf==6.33.5
 pytorchvideo==0.1.5
 soundfile
 fvcore
@@ -34,3 +34,4 @@ ftfy
 regex
 einops
 imageio-ffmpeg
+python-multipart>=0.0.22 # not directly required, pinned by Snyk to avoid a vulnerability
